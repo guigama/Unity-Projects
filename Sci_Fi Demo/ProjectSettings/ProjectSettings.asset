@@ -668,8 +668,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: a62025d8-321b-49f0-9478-ee71cc185e55
-  projectName: Sci_Fi Demo
+  cloudProjectId: b29f2f3b-4335-48bd-a92f-c59c0f59960d
+  projectName: Sci_Fi Demo (2)
   organizationId: guilhermesouzagama
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
