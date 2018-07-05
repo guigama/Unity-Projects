@@ -18,11 +18,17 @@ public class Player : MonoBehaviour {
 
     [SerializeField]
     private int currentAmmo;
-    private int maxAmmo = 50;
+    private int maxAmmo = 100;
 
     private bool _isReloading = false;
 
     private UIManager _uiManager;
+
+    //variable for has coin
+    public bool hasCoin = false;
+
+    [SerializeField]
+    private GameObject _weapon;
 
 
 	// Use this for initialization
@@ -84,6 +90,13 @@ public class Player : MonoBehaviour {
             Debug.Log("Hit: " + hitInfo.transform.name);
             GameObject hitMarker = Instantiate(_hitMarkerPrefab, hitInfo.point, Quaternion.LookRotation(hitInfo.normal)) as GameObject;
             Destroy(hitMarker, 1f);
+
+            Destructable crate = hitInfo.transform.GetComponent<Destructable>();
+            if(crate != null)
+            {
+                crate.DestroyCrate();
+            }
+
         }
     }
 
@@ -103,6 +116,11 @@ public class Player : MonoBehaviour {
         currentAmmo = maxAmmo;
         _uiManager.UpdateAmmo(currentAmmo);
         _isReloading = false;
+    }
+
+    public void EnebleWeapons()
+    {
+        _weapon.SetActive(true);
     }
 
 }
