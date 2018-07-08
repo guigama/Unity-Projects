@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: f8066d1ffe405464f97ef21394d8cbc2
+  productGUID: f26f2a4bdab7250459de4f9ce880fa9a
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Galaxy Shooter
+  productName: Galaxy Shooter 2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -647,8 +647,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: fd7f29d0-40d4-4b4b-8b59-f9ea2c0e99ab
-  projectName: Galaxy Shooter (1)
+  cloudProjectId: 94abf1c9-e43b-4f92-836b-a17ea284f91f
+  projectName: Galaxy Shooter 2
   organizationId: guilhermesouzagama
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
